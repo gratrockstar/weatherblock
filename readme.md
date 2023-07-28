@@ -1,11 +1,11 @@
 # Weatherblock
 
-Contributors:      gratrockstar
-Tags:              block
-Tested up to:      6.3
-Stable tag:        1.0.0
-License:           GPL-2.0-or-later
-License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+Contributors:      gratrockstar<br />
+Tags:              block<br />
+Tested up to:      6.3<br />
+Stable tag:        1.0.0<br />
+License:           GPL-2.0-or-later<br />
+License URI:       https://www.gnu.org/licenses/gpl-2.0.html<br />
 
 A simple native Gutenberg block to show the current weather in a location.
 
