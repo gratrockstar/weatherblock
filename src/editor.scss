@@ -1,0 +1,32 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.editor-styles-wrapper {
+	.block-editor-block-list__block {
+		&.wp-block-weatherblock-weatherblock {
+			border: 1px dotted #f00;
+			padding: 1rem;
+			h3 {
+				font-size: 2rem;
+				margin: 0 0 .5em;
+			}
+		}
+	}
+}
+
+/* Add a red asterisk after label to indicate required field */
+.is-required * label::after{
+	color:#cc1818;
+	content:" *"
+}
+
+*:required:invalid {
+	border-color:#cc1818;
+
+	&:focus{
+			border-color:#cc1818;
+			box-shadow:0 0 0 1px #cc1818;
+	}
+}

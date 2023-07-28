@@ -1,0 +1,67 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.weather-block h2 {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: sans-serif;
+}
+.weather-block h2 span {
+  font-size: 1em;
+}
+.weather-block p {
+  margin: 0 !important;
+}
+.weather-block .today {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.weather-block .current-conditions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+.weather-block .current-temp {
+  font-size: 4em;
+  line-height: 1.2;
+}
+.weather-block .current-temp span {
+  font-size: 0.5em;
+}
+.weather-block .feels-like span {
+  font-size: 0.8em;
+}
+.weather-block .weather-datetime {
+  margin-left: auto;
+  align-self: top;
+}
+.weather-block .forecast {
+  padding-top: 1rem;
+}
+.weather-block .forecast h3 {
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+.weather-block .forecast ul {
+  display: flex;
+  overflow-x: auto;
+  list-style-type: none;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+.weather-block .forecast ul li {
+  min-width: 80px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

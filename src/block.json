@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "weatherblock/weatherblock",
+	"version": "0.1.0",
+	"title": "Weatherblock",
+	"category": "widgets",
+	"icon": "cloud",
+	"description": "Show the current weather for a location in a block.",
+	"attributes": {
+    "location": {
+      "type": "string",
+      "default": ""
+    },
+		"measurementunit": {
+			"type": "string",
+			"default": "imperial"
+		},
+		"showHourly": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "weatherblock",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
